@@ -10,6 +10,12 @@ public class Desafio12 {
 		String tentativa = "";
 
 		// faça o loop que lê as tentativas de senhas e verifica se elas estão corretas.
-		
+		while (senha.equals(tentativa) == false) {
+		tentativa = scanner.next();
+		if (senha.equals(tentativa)) {
+		System.out.println("Acesso Permitido");
+		} else {
+		System.out.println("Acesso Negado");
+			
 	}
 }
